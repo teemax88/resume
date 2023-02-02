@@ -1,0 +1,43 @@
+@import 'fonts.css';
+@import 'icon.css';
+
+:root {
+
+    /* colors */
+    --green: #00ff62;
+    --white: #ffffff;
+    --yellow: #ffee00;
+    --blue: #0004ff;
+    --gray: #787878;
+    --dark: #000000;
+
+    /* fonts */
+    --f100: '';
+    --f300: '';
+    --f400: '';
+    --f500: '';
+    --f700: '';
+}
+
+*,
+ul,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--ps);
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
